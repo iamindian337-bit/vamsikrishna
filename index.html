@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Our Services</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Web Design</h2>
+            <p>We create modern responsive websites.</p>
+        </div>
+
+        <div class="card">
+            <h2>Marketing</h2>
+            <p>Grow your brand with our strategies.</p>
+        </div>
+
+        <div class="card">
+            <h2>Support</h2>
+            <p>24/7 customer support service.</p>
+        </div>
+    </div>
+</body>
+</html>
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
